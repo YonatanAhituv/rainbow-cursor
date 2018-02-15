@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Cursor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 2,
   "description": "Make your cursor rainbow in Google Docs.",
   "content_scripts": [
@@ -9,9 +9,13 @@
      "js": ["rainbow.js"]
    }
   ],
- "icons": { "16": "icon16.png",
-            "48": "icon48.png",
-           "128": "icon128.png" },
+ "icons": [
+ { 
+  "16": "icon16.png",
+  "48": "icon48.png",
+  "128": "icon128.png" 
+  }
+  ],
   "browser_action": {
     "default_title": "Rainbow Cursor",
     "default_icon": "icon.png"
