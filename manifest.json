@@ -1,7 +1,7 @@
 {
   "name": "Rainbow Cursor for Google Docs",
   "short_name": "Rainbow Crsr",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "manifest_version": 2,
   "description": "Make your cursor rainbow in Google Docs.",
   "content_scripts": [
